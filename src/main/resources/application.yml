@@ -8,8 +8,8 @@ spring:
   rabbitmq:
     host: 192.168.36.132
     port: 5672
-    username: admin
-    password: mypass
+    username: guest
+    password: guest
     virtual-host: /
     publisher-confirms: true   #开启发送确认
     publisher-returns: true  #开启发送失败回退
